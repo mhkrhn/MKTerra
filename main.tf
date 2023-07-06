@@ -7,9 +7,6 @@ terraform {
     }
   }
 
- 
-  }
-terraform {
   cloud {
     organization = "mkterra"
 
@@ -17,7 +14,8 @@ terraform {
       name = "mkwork"
     }
   }
-}
+  }
+
 
 
 provider "azurerm" {
