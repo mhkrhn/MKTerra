@@ -32,7 +32,7 @@ resource "random_string" "uniquestring" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "mk-git"
+  name     = "mk-gibt"
   location = "francecentral"
 }
 
