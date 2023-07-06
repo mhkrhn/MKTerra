@@ -6,10 +6,11 @@ terraform {
       version  = "3.43.0"
     }
   }
-  
+
 
   cloud {
     organization = "mkterra"
+
 
     workspaces {
       name = "mkwork"
