@@ -1,4 +1,15 @@
 terraform {
+  required_version = ">=1.3.0"
+  required_providers {
+    azurerm = {
+      "source" = "hashicorp/azurerm"
+      version  = "3.43.0"
+    }
+  }
+
+ 
+  }
+terraform {
   cloud {
     organization = "mkterra"
 
@@ -21,7 +32,7 @@ resource "random_string" "uniquestring" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "mk-git"
+  name     = "mk-gibt"
   location = "francecentral"
 }
 
